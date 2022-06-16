@@ -1,0 +1,48 @@
+
+/*SOBRE MI*/
+.nav--sobreMi {
+    background-color: #FFDEE9;
+    background-image: linear-gradient(90deg, #FFDEE9 0%, #B5FFFC 100%);
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+
+.article__sobreMi {
+    display: flex;
+    background-color: #FFDEE9;
+    background-image: linear-gradient(90deg, #FFDEE9 0%, #B5FFFC 100%);
+    width: 100%;
+    max-width: 1200px;
+    border-radius: 5px;
+    margin: auto;
+    flex-wrap: wrap;
+    box-shadow: 0 2px 2px rgba(0,0,0,0.2);
+    margin-top: 6rem;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.containerImg__sobreMi {
+    display: flex;
+    flex-direction: row;
+    width: 330px;
+    height: 100%;
+}
+
+.img__sobreMi {
+    width: 100%;
+    height: 100%;  
+    border-radius: 5px;
+
+}
+
+.romiText__sobreMi{
+    display: flex;
+    margin: 2rem;
+    line-height: 1.5em;
+
+}

@@ -1,0 +1,101 @@
+/*NUTRICION*/
+
+.nav--nutricion {
+    background-color: #FBAB7E;
+    background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+    display: flex;
+    justify-content: space-between;
+    
+}
+.contenedorH2__nutricion {
+    width: 100%;
+    
+    
+}
+
+.h2__nutricion {
+    font-size: 5rem;
+    line-height: 1.15;
+    letter-spacing: 1px;
+    margin: 1rem 0 1rem 0; 
+    text-align: center;  
+    color: black; 
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    
+}
+.card__nutricionContainer{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin: auto;
+    
+    
+    
+}
+
+.card__nutricionContainer .card__nutricion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 450px;
+    justify-content: center;
+    margin: auto;
+    border-radius: 5px;
+    box-shadow: 0 2px 2px rgba(0,0,0,0.2);
+    margin:2rem 0 1rem 0;
+    background-color: #FBAB7E;
+    background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+    
+}
+.card__nutricionContainer .card__nutricion .img__card--nutricion {
+    width: 330px;
+    height: auto;
+} 
+
+.card__nutricion {
+    margin: 1rem;
+}
+
+.ingredientes__nutricion {
+    display: flex;
+    margin: 1rem 0 1rem 0;
+    
+}
+
+.img__card--nutricion {
+    display: flex;
+    margin-top: 1rem ;
+    border-radius: 5px;
+    width: 100px;
+    height: 350px;
+    background-color: #F7ECDE;
+}
+
+.p__nutricion {
+    text-align: center;
+    line-height: 1.5em;
+}
+
+.nutricion__buton {
+    background-color: #FBAB7E;
+    background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+    text-decoration: none;
+    color: black;
+    font-family: 'Work Sans', sans-serif;
+    padding: 0.7rem 0.4rem;
+    font-weight: 400;
+    display: flex; 
+    width: 10rem;
+    text-align: center;
+    box-shadow: 0 2px 2px rgba(0,0,0,0.2);
+}
+
+.nutricion__buton:hover {
+    background-color: #FBAB7E;
+    background-image: linear-gradient(62deg, #eb884e 0%, #f0bb33 100%);
+    transition: 1s;
+}

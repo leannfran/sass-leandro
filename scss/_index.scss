@@ -1,0 +1,105 @@
+.headerNav {
+    background-color: $color-index;
+    position: fixed;
+    height: 5rem;
+    width: 100%;
+    top: 0;
+    left: 0;
+    box-shadow: 0 2px 2px rgba(0,0,0,0.2);
+    
+    .nav {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .nav__logo {
+        color: black;
+        font-size: 30px;
+        font-weight: bold;
+        padding: 0rem 3rem;
+        line-height: 5rem;
+    }
+    
+    .nav__ul {
+        display: flex;
+        margin-right: 3rem;
+        list-style: none;
+        line-height: 5rem;
+        text-transform: uppercase   ;
+        flex-wrap: wrap;
+    } 
+    
+    a {
+        text-decoration: none;
+        color: black;
+        margin: 0rem 0.625rem;
+        padding: 2rem 0.8rem;
+    }
+    
+    &:hover {
+        background-color: #FBF8F1;
+        transition: 0.5s;
+    } 
+    
+}
+.botonNav {
+    background: none;
+    border: none;
+    font-size: 1.6rem;
+    display: none;
+}
+
+/* hero del index*/
+
+.article {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 2.2rem;
+    margin: 2.2rem;
+}
+
+.div__hero {
+    width: 100%;
+    padding-right: 1.5rem;
+    padding-left: 2.5rem;
+    margin-right: auto;
+    margin-left: auto;
+    
+    .hero__h2 {
+        font-size: 5rem;
+        line-height: 1.15;
+        letter-spacing: 2px;
+        margin-bottom: 1rem;   
+        color: black; 
+        font-family: 'Work Sans', sans-serif;
+        font-weight: 400;
+    }
+    
+    .hero__boton {
+        background-color: $color-index
+        text-decoration: none;
+         color: black;
+         font-family: 'Work Sans', sans-serif;
+         margin: 1.2rem 0.6rem 0.6rem 2.8rem;
+         padding: 0.7rem 0.4rem;
+        font-weight: 400;
+        display: flex;
+        align-self: flex-start;  
+}
+
+&:hover {
+    background-color: #E9DAC1;
+    transition: 1s;
+}
+
+.article__p{
+    font-weight: 200;
+    font-stretch: expanded;
+    margin-left: 2.6rem;
+    display: flex;
+    align-self: flex-start;
+    
+}
+}

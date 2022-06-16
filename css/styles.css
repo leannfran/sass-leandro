@@ -1,0 +1,684 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*propiedades body*/
+
+body {
+    font-family: 'Poppins', sans-serif;  
+}
+.background__index {
+    background-image: url(../multimedia/fondo2.jpg);
+    background-size:cover;
+    padding: 4rem 1rem 0rem;
+    background-repeat: no-repeat;
+}
+#grid {
+    display: grid;
+    grid-template-areas: 
+    "headerNav"
+    "main"
+    "foteer"
+    ;
+    grid-template-columns: 100%;
+    grid-template-rows: 1fr 3fr 1fr;
+}
+
+footer {
+opacity: 0.6;
+}
+
+/* nav */
+.headerNav {
+    background-color:#F7ECDE;
+    position: fixed;
+    height: 5rem;
+    width: 100%;
+    top: 0;
+    left: 0;
+    box-shadow: 0 2px 2px rgba(0,0,0,0.2);
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav__logo {
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0rem 3rem;
+    line-height: 5rem;
+}
+
+.nav__ul {
+    display: flex;
+    margin-right: 3rem;
+    list-style: none;
+    line-height: 5rem;
+    text-transform: uppercase   ;
+    flex-wrap: wrap;
+} 
+
+.nav__li a {
+    text-decoration: none;
+    color: black;
+    margin: 0rem 0.625rem;
+    padding: 2rem 0.8rem;
+}
+
+.nav__li a:hover {
+    background-color: #FBF8F1;
+    transition: 0.5s;
+} 
+
+.botonNav {
+    background: none;
+    border: none;
+    font-size: 1.6rem;
+    display: none;
+}
+
+/* hero del index*/
+
+.article {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 2.2rem;
+    margin: 2.2rem;
+}
+
+.div__hero {
+    width: 100%;
+    padding-right: 1.5rem;
+    padding-left: 2.5rem;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.hero__h2 {
+    font-size: 5rem;
+    line-height: 1.15;
+    letter-spacing: 2px;
+    margin-bottom: 1rem;   
+    color: black; 
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+}
+
+.hero__boton {
+    background-color: #F7ECDE;
+    text-decoration: none;
+    color: black;
+    font-family: 'Work Sans', sans-serif;
+    margin: 1.2rem 0.6rem 0.6rem 2.8rem;
+    padding: 0.7rem 0.4rem;
+    font-weight: 400;
+    display: flex;
+    align-self: flex-start;  
+}
+
+.hero__boton:hover {
+    background-color: #E9DAC1;
+    transition: 1s;
+}
+
+.article__p{
+    font-weight: 200;
+    font-stretch: expanded;
+    margin-left: 2.6rem;
+    display: flex;
+    align-self: flex-start;
+    
+}
+
+
+/*SOBRE MI*/
+.nav--sobreMi {
+    background-color: #FFDEE9;
+    background-image: linear-gradient(90deg, #FFDEE9 0%, #B5FFFC 100%);
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+
+.article__sobreMi {
+    display: flex;
+    background-color: #FFDEE9;
+    background-image: linear-gradient(90deg, #FFDEE9 0%, #B5FFFC 100%);
+    width: 100%;
+    max-width: 1200px;
+    border-radius: 5px;
+    margin: auto;
+    flex-wrap: wrap;
+    box-shadow: 0 2px 2px rgba(0,0,0,0.2);
+    margin-top: 6rem;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.containerImg__sobreMi {
+    display: flex;
+    flex-direction: row;
+    width: 330px;
+    height: 100%;
+}
+
+.img__sobreMi {
+    width: 100%;
+    height: 100%;  
+    border-radius: 5px;
+
+}
+
+.romiText__sobreMi{
+    display: flex;
+    margin: 2rem;
+    line-height: 1.5em;
+
+}
+
+/*NUTRICION*/
+
+<<<<<<< HEAD
+.background__nutricion {
+    background-image: url(../multimedia/fondoNutricion.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.background__nutricion--plantBased {
+    background-image: url(../multimedia/fondoPlantBased.jpg);
+    background-size: c;
+}
+=======
+>>>>>>> 60c0fad18de2ce9d7ed38e318ecf101bcd2dab7b
+.nav--nutricion {
+    background-color: #FBAB7E;
+    background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+    display: flex;
+    justify-content: space-between;
+    
+}
+.contenedorH2__nutricion {
+    width: 100%;
+<<<<<<< HEAD
+}
+.h2__nutricion--deportiva {
+    font-size: 5rem;
+    line-height: 1.15;
+    letter-spacing: 1px;
+    margin: 1rem 0 1rem 0; 
+    text-align: center;  
+    color: black; 
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    
+}
+=======
+    
+    
+}
+
+>>>>>>> 60c0fad18de2ce9d7ed38e318ecf101bcd2dab7b
+.h2__nutricion {
+    font-size: 5rem;
+    line-height: 1.15;
+    letter-spacing: 1px;
+    margin: 1rem 0 1rem 0; 
+    text-align: center;  
+    color: black; 
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    
+}
+.card__nutricionContainer{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin: auto;
+    
+    
+    
+}
+
+.card__nutricionContainer .card__nutricion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 450px;
+    justify-content: center;
+    margin: auto;
+    border-radius: 5px;
+    box-shadow: 0 2px 2px rgba(0,0,0,0.2);
+    margin:2rem 0 1rem 0;
+    background-color: #FBAB7E;
+    background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+    
+}
+.card__nutricionContainer .card__nutricion .img__card--nutricion {
+    width: 330px;
+    height: auto;
+} 
+
+.card__nutricion {
+    margin: 1rem;
+}
+
+.ingredientes__nutricion {
+    display: flex;
+    margin: 1rem 0 1rem 0;
+    
+}
+
+.img__card--nutricion {
+    display: flex;
+    margin-top: 1rem ;
+    border-radius: 5px;
+    width: 100px;
+    height: 350px;
+    background-color: #F7ECDE;
+}
+
+.p__nutricion {
+    text-align: center;
+    line-height: 1.5em;
+}
+
+.nutricion__buton {
+    background-color: #FBAB7E;
+    background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+    text-decoration: none;
+    color: black;
+    font-family: 'Work Sans', sans-serif;
+    padding: 0.7rem 0.4rem;
+    font-weight: 400;
+    display: flex; 
+    width: 10rem;
+    text-align: center;
+    box-shadow: 0 2px 2px rgba(0,0,0,0.2);
+}
+
+.nutricion__buton:hover {
+    background-color: #FBAB7E;
+    background-image: linear-gradient(62deg, #eb884e 0%, #f0bb33 100%);
+    transition: 1s;
+}
+
+/* testimonios */
+
+.nav--testimonios {
+    display: flex;
+    justify-content: space-between;
+    background-color: #85FFBD;
+    background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%); 
+    box-shadow: 0 2px 2px rgba(0,0,0,0.2);
+}
+
+.testimonios__h2 {
+    font-size: 5rem;
+    line-height: 1.15;
+    letter-spacing: 1px;
+    margin: 1rem 0 2rem 0; 
+    text-align: center;  
+    color: black; 
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    margin:6rem 0 1rem 0;
+}
+
+.h3__testimonios {
+    text-align: center;
+}
+
+.container__testimonios {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 1200px;
+    justify-content: center;
+    margin: auto;
+}
+
+.container__testimonios .card__testimonios {
+    width: 330px;
+    height: 430px;
+    border-radius: 5px;
+    box-shadow: 0 2px 2px rgba(0,0,0,0.2);
+    overflow: hidden;
+    text-align: center;
+    background-color: #85FFBD;
+    background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+    
+    
+}
+
+.container__testimonios .card__testimonios .imgCard {
+    width: 330px;
+    height: auto;
+}
+
+
+.card__testimonios {
+    margin: 1rem;
+}
+
+.testimonios__p {
+    margin: 0rem 0 4rem 0;
+    text-align: center;
+    line-height: 1.5em;
+    
+}
+
+.img__testimonio {
+    display: flex;
+    margin: 30px;
+    width: 100px;
+    height: 350px;
+    background-color: #F7ECDE;
+}
+
+.testimonios__buton {
+    background-color: #85FFBD;
+    background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+    text-decoration: none;
+    color: black;
+    font-family: 'Work Sans', sans-serif;
+    margin:auto;
+    padding: 0.7rem 0.4rem;
+    font-weight: 400;
+    display: flex; 
+    width: 10rem;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 2px 2px rgba(0,0,0,0.2);
+}
+
+.testimonios__buton:hover {
+    background-color: #f5edde;
+    transition: 1s;
+}
+/*cata*/
+
+.container__testimonios--cata {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 1200px;
+    justify-content: center;
+    margin: auto;
+}
+
+.container__testimonios--cata .card__testimonios--cata {
+    width: 330px;
+    height: 730px;
+    border-radius: 5px;
+    box-shadow: 0 2px 2px rgba(0,0,0,0.2);
+    overflow: hidden;
+    text-align: center;
+    background-color: #85FFBD;
+    background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+    
+    
+}
+
+.container__testimonios--cata .card__testimonios--cata .imgCard--cata {
+    width: 330px;
+    height: auto;
+}
+
+.testimonios__h2--cata{
+    margin: 6rem 0 0 1rem; 
+    display: flex;
+    color: black; 
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+}
+
+.card__testimonios--cata {
+    margin: 1rem;
+}
+
+.testimonios__p--cata {
+    display: flex;
+    line-height: 1.5em; 
+}
+
+.img__testimonio--cata {
+    display: flex;
+    margin: 30px;
+    width: 100px;
+    height: 350px;
+    
+}
+
+.imgCard--cata {
+    width: 330px;    
+}
+
+
+/*contacto*/
+.nav--contacto { 
+display: flex;
+justify-content: space-between;
+background-color: #0093E9;
+background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+box-shadow: 0 2px 2px rgba(0,0,0,0.2);
+}
+
+.h2__contacto {
+    font-size: 5rem;
+    line-height: 1.15;
+    letter-spacing: 1px; 
+    text-align: center;  
+    color: black; 
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    margin:6rem 0 1rem 0;
+
+}
+
+.article__contacto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.contacto__imgContainer {
+    width: 50px;
+    height: 50px;
+}
+
+.contacto__img--ig {
+    width: 100%;
+    height: 100%;
+}
+
+.containerForm__contacto {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    margin-top: 2rem;
+    width: 100%;
+    max-width: 15rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 2px rgba(0,0,0,0.2);
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    padding: 1.5rem;
+}
+
+
+/*responsive index*/
+
+@media (max-width: 840px) { 
+
+    #grid {
+        display: grid;
+        grid-template-areas: 
+        "headerNav"
+        "main"
+        "foteer"
+        ;
+        grid-template-columns: 100%;
+        grid-template-rows: 2fr 3fr 1fr;
+    }
+
+    .headerNav  {
+        background-color: #F7ECDE;
+        position: absolute;
+        width: 100%;
+        top: 0;
+        left: 0;
+    }
+    .nav .nav--contacto .nav--nutricion .nav--sobreMi .nav--testimonios {
+        display: flex;
+    }
+    
+    .nav__logo {
+
+        font-size: 1rem;
+        padding: 0rem 0.8rem ;
+        margin: 0rem;
+        top: 0;
+        
+    }
+    
+    .nav__ul {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-right: 0;
+        line-height: 2rem;
+        text-transform: uppercase   ;
+        flex-wrap: wrap;
+    } 
+    
+    .nav__li a {
+        text-decoration: none;
+        color: black;
+        margin: 0.2rem 0.8rem;
+        padding: 0.1rem;
+        font-size: 0.6rem;
+        
+    }
+
+    /* hero del index*/
+.article {
+    align-items: center;
+    padding: 1.2rem;
+    margin: 1.2rem;
+}
+
+.div__hero {
+    width: 100%;
+    padding-right: 1.5rem;
+    padding-left: 0.1rem;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.hero__h2 {
+    font-size: 3rem;
+    line-height: 1.15;
+    margin-bottom: 1rem;   
+}  
+.hero__boton {
+    font-family: 'Work Sans', sans-serif;
+    margin: 1.2rem 0.6rem 0.6rem 0.3rem;
+    padding: 0.7rem 0.4rem;
+    font-weight: 400;
+    display: flex;
+    align-self: flex-start; 
+}
+.article__p {
+    font-size: 0.8rem;
+    margin-left: 0rem;
+}
+/*NUTRICION*/
+.h2__nutricion {
+    font-size: 3rem;
+    line-height: 1.15;
+    letter-spacing: 1px;
+    margin: 3rem 0 1rem 0; 
+    text-align: center;  
+    color: black; 
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    
+}
+
+
+    
+
+/* testimonios */
+
+.article__testimonios {
+    display: flex;
+}
+
+.testimonios__h2 {
+    font-size: 3rem;
+}
+
+.testimonios__h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.testimonios__p {
+    display: flex;
+    justify-content: center;
+    
+    flex-direction: column;
+}
+/*CONTACTO*/
+.h2__contacto {
+    font-size: 4rem;
+}
+
+}
+
+@media (max-width: 460px) {
+    /*sobre mi*/
+    .containerImg__sobreMi {
+        width: 130px;
+        height: 100%;
+    }
+    /*NUTRICION*/
+    .img__card--nutricion {
+        width: 130px;
+    }
+    .card__nutricionContainer .card__nutricion .img__card--nutricion {
+        width: 230px;
+        height: auto;
+    }
+    /*TESTIMONIOS*/
+    .testimonios__h2 {
+        font-size: 2.5rem;
+    }
+
+    /*CONTACTO*/
+    .h2__contacto {
+        font-size: 3rem;
+    }
+
+    
+
+}
+
+        
+/*fin del media*/

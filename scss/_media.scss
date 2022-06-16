@@ -1,0 +1,161 @@
+/*responsive index*/
+
+@media (max-width: 840px) { 
+
+    #grid {
+        display: grid;
+        grid-template-areas: 
+        "headerNav"
+        "main"
+        "foteer"
+        ;
+        grid-template-columns: 100%;
+        grid-template-rows: 2fr 3fr 1fr;
+    }
+
+    .headerNav  {
+        background-color: #F7ECDE;
+        position: absolute;
+        width: 100%;
+        top: 0;
+        left: 0;
+    
+        .nav .nav--contacto .nav--nutricion .nav--sobreMi .nav--testimonios {
+            display: flex;
+        }
+        
+        .nav__logo {
+            
+            font-size: 1rem;
+            padding: 0rem 0.8rem ;
+            margin: 0rem;
+            top: 0;
+            
+        }
+        
+        .nav__ul {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            margin-right: 0;
+            line-height: 2rem;
+            text-transform: uppercase   ;
+            flex-wrap: wrap;
+        } 
+        
+        .nav__li a {
+            text-decoration: none;
+            color: black;
+            margin: 0.2rem 0.8rem;
+            padding: 0.1rem;
+            font-size: 0.6rem;
+            
+        }
+    }
+        
+    /* hero del index*/
+.article {
+    align-items: center;
+    padding: 1.2rem;
+    margin: 1.2rem;
+}
+
+.div__hero {
+    width: 100%;
+    padding-right: 1.5rem;
+    padding-left: 0.1rem;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.hero__h2 {
+    font-size: 3rem;
+    line-height: 1.15;
+    margin-bottom: 1rem;   
+}  
+.hero__boton {
+    font-family: 'Work Sans', sans-serif;
+    margin: 1.2rem 0.6rem 0.6rem 0.3rem;
+    padding: 0.7rem 0.4rem;
+    font-weight: 400;
+    display: flex;
+    align-self: flex-start; 
+}
+.article__p {
+    font-size: 0.8rem;
+    margin-left: 0rem;
+}
+/*NUTRICION*/
+.h2__nutricion {
+    font-size: 3rem;
+    line-height: 1.15;
+    letter-spacing: 1px;
+    margin: 3rem 0 1rem 0; 
+    text-align: center;  
+    color: black; 
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    
+}
+
+
+    
+
+/* testimonios */
+
+.article__testimonios {
+    display: flex;
+}
+
+.testimonios__h2 {
+    font-size: 3rem;
+}
+
+.testimonios__h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.testimonios__p {
+    display: flex;
+    justify-content: center;
+    
+    flex-direction: column;
+}
+/*CONTACTO*/
+.h2__contacto {
+    font-size: 4rem;
+}
+
+}
+
+@media (max-width: 460px) {
+    /*sobre mi*/
+    .containerImg__sobreMi {
+        width: 130px;
+        height: 100%;
+    }
+    /*NUTRICION*/
+    .img__card--nutricion {
+        width: 130px;
+    }
+    .card__nutricionContainer .card__nutricion .img__card--nutricion {
+        width: 230px;
+        height: auto;
+    }
+    /*TESTIMONIOS*/
+    .testimonios__h2 {
+        font-size: 2.5rem;
+    }
+
+    /*CONTACTO*/
+    .h2__contacto {
+        font-size: 3rem;
+    }
+
+    
+
+}
+
+        
+/*fin del media*/
