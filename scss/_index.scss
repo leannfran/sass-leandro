@@ -1,5 +1,5 @@
 .headerNav {
-    background-color: $color-index;
+    background-color: map-get($map:palete, $key:'botonNavIndex' );
     position: fixed;
     height: 5rem;
     width: 100%;
@@ -78,7 +78,7 @@
     }
     
     .hero__boton {
-        background-color: $color-index
+        background-color: $colorNavIndex;
         text-decoration: none;
          color: black;
          font-family: 'Work Sans', sans-serif;

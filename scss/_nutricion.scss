@@ -1,7 +1,7 @@
 /*NUTRICION*/
 
 .nav--nutricion {
-    background-color: #FBAB7E;
+    background-color: $colorNavNutricion;
     background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
     display: flex;
     justify-content: space-between;
@@ -34,24 +34,27 @@
     
 }
 
-.card__nutricionContainer .card__nutricion{
+.card__nutricion{
+    @extend: .card__nutricionContainer;
     display: flex;
     flex-direction: column;
     align-items: center;
     align-content: center;
     flex-wrap: wrap;
-    width: 100%;
+    width: 100%;    
     max-width: 450px;
     justify-content: center;
     margin: auto;
     border-radius: 5px;
     box-shadow: 0 2px 2px rgba(0,0,0,0.2);
     margin:2rem 0 1rem 0;
-    background-color: #FBAB7E;
+    background-color: $colorNavNutricion;
     background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
     
 }
-.card__nutricionContainer .card__nutricion .img__card--nutricion {
+.img__card--nutricion {
+     @extend:.card__nutricionContainer;
+     @extend: .card__nutricion;
     width: 330px;
     height: auto;
 } 
@@ -81,7 +84,7 @@
 }
 
 .nutricion__buton {
-    background-color: #FBAB7E;
+    background-color: $colorNavNutricion;
     background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
     text-decoration: none;
     color: black;

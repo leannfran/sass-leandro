@@ -1,9 +1,11 @@
 /* testimonios */
 
+
+
 .nav--testimonios {
     display: flex;
     justify-content: space-between;
-    background-color: #85FFBD;
+    background-color: $colorNavTestimonios;
     background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%); 
     box-shadow: 0 2px 2px rgba(0,0,0,0.2);
 }
@@ -23,30 +25,38 @@
 .h3__testimonios {
     text-align: center;
 }
-
-.container__testimonios {
+@mixin testimonios  {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
     max-width: 1200px;
     justify-content: center;
     margin: auto;
+    
 }
 
-.container__testimonios .card__testimonios {
+.container__testimonios {
+    @include testimonios()
+
+}
+
+.card__testimonios {
+    @extend: .container__testimonios; 
     width: 330px;
     height: 430px;
     border-radius: 5px;
     box-shadow: 0 2px 2px rgba(0,0,0,0.2);
     overflow: hidden;
     text-align: center;
-    background-color: #85FFBD;
+    background-color: $colorNavTestimonios;
     background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
     
     
 }
 
-.container__testimonios .card__testimonios .imgCard {
+.imgCard {
+    @extend : .container__testimonios; 
+    @extend: .card__testimonios; 
     width: 330px;
     height: auto;
 }
@@ -72,7 +82,7 @@
 }
 
 .testimonios__buton {
-    background-color: #85FFBD;
+    background-color: $colorNavTestimonios;
     background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
     text-decoration: none;
     color: black;
@@ -94,12 +104,7 @@
 /*cata*/
 
 .container__testimonios--cata {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    max-width: 1200px;
-    justify-content: center;
-    margin: auto;
+   @include testimonios()
 }
 
 .container__testimonios--cata .card__testimonios--cata {
@@ -109,7 +114,7 @@
     box-shadow: 0 2px 2px rgba(0,0,0,0.2);
     overflow: hidden;
     text-align: center;
-    background-color: #85FFBD;
+    background-color: $colorNavTestimonios;
     background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
     
     

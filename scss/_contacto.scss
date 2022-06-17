@@ -2,7 +2,7 @@
 .nav--contacto { 
     display: flex;
     justify-content: space-between;
-    background-color: #0093E9;
+    background-color: $colorNavContacto;
     background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
     box-shadow: 0 2px 2px rgba(0,0,0,0.2);
     }
@@ -47,7 +47,7 @@
         max-width: 15rem;
         border-radius: 5px;
         box-shadow: 0 2px 2px rgba(0,0,0,0.2);
-        background-color: #0093E9;
+        background-color: $colorNavContacto;
         background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
         padding: 1.5rem;
     }

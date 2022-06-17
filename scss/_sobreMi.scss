@@ -1,8 +1,8 @@
 
 /*SOBRE MI*/
 .nav--sobreMi {
-    background-color: #FFDEE9;
-    background-image: linear-gradient(90deg, #FFDEE9 0%, #B5FFFC 100%);
+    background-color: $colorNavSobreMi;
+    background-image: linear-gradient(90deg, $colorNavSobreMi; 0%, #B5FFFC 100%);
     display: flex;
     justify-content: space-between;
     
@@ -11,7 +11,7 @@
 
 .article__sobreMi {
     display: flex;
-    background-color: #FFDEE9;
+    background-color: $colorNavSobreMi;
     background-image: linear-gradient(90deg, #FFDEE9 0%, #B5FFFC 100%);
     width: 100%;
     max-width: 1200px;
