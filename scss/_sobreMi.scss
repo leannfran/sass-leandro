@@ -39,7 +39,11 @@
     border-radius: 5px;
 
 }
-
+.container__romiText {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
 .romiText__sobreMi{
     display: flex;
     margin: 2rem;

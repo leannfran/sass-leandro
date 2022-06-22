@@ -24,6 +24,7 @@ body {
     ;
     grid-template-columns: 100%;
     grid-template-rows: 1fr 3fr 1fr;
+    height: 100vh;
 }
 
 footer {
@@ -178,7 +179,9 @@ opacity: 0.6;
     border-radius: 5px;
 
 }
-
+.container__romiText {
+    display: flex;
+}
 .romiText__sobreMi{
     display: flex;
     margin: 2rem;
