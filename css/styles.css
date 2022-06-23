@@ -12,7 +12,9 @@ body {
 .background__index {
     background-image: url(../multimedia/fondo2.jpg);
     background-size:cover;
-    padding: 4rem 1rem 0rem;
+    height: 100vh;
+    padding: auto;
+    margin-top: 5rem;
     background-repeat: no-repeat;
 }
 #grid {
@@ -23,12 +25,20 @@ body {
     "foteer"
     ;
     grid-template-columns: 100%;
-    grid-template-rows: 1fr 3fr 1fr;
+    grid-template-rows: auto 1fr auto;
     height: 100vh;
 }
 
 footer {
-opacity: 0.6;
+opacity: 1;
+margin: 0;
+position: relative;
+bottom: 0;
+
+text-align: center;
+}
+.footer__text {
+
 }
 
 /* nav */
@@ -122,10 +132,11 @@ opacity: 0.6;
     font-weight: 400;
     display: flex;
     align-self: flex-start;  
+    box-shadow: 0 2px 2px rgba(0,0,0,0.2);
 }
 
 .hero__boton:hover {
-    background-color: #E9DAC1;
+    background-color: #FBF8F1;
     transition: 1s;
 }
 
@@ -651,6 +662,12 @@ box-shadow: 0 2px 2px rgba(0,0,0,0.2);
         width: 130px;
         height: 100%;
     }
+    .container__romiText {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
     /*NUTRICION*/
     .img__card--nutricion {
         width: 130px;

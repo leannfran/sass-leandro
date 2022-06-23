@@ -135,6 +135,12 @@
         width: 130px;
         height: 100%;
     }
+
+    .container__romiText {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
     /*NUTRICION*/
     .img__card--nutricion {
         width: 130px;
